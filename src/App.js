@@ -11,22 +11,25 @@ import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollup/ScrollUp';
 import Work from './components/work/Work';
 
-
 const App = () => {
   return (
    <>
    <Header/>
-   
+
    <main className='main'>
-    <Home/>
-    <About/>
-    <Skills/>
-    <Services/>
-    <Qualification/>
-    <Work/>
-    <Contact/>
+
+        <Home/>
+        <About/>
+        <Skills/> 
+        <Services/>
+        <Qualification/>
+        <Work/>
+        <Contact/>
+
    </main>
+
     <Footer/>
+
     <ScrollUp/>
    </>
   )

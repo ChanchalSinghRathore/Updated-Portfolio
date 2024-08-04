@@ -76,7 +76,7 @@ const Contact = () => {
 
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Querry/Project</label>
-                            <textarea name="project" className='contact__form-input' cols='30' rows='10' placeholder='Write your peoject' id=""></textarea>
+                            <textarea name="project" className='contact__form-input' cols='30' rows='10' placeholder='Write your project' id=""></textarea>
                         </div>
 
 
