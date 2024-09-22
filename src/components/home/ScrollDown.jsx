@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom'
 const ScrollDown = () => {
   return (
         <div className="home__scroll">
-            <NavLink to="/qualification" className="home__scroll-button button--flex">
+            <NavLink to="/work" className="home__scroll-button button--flex">
             <svg
-                width="32px"
-                height="32px"
+                width="30px"
+                height="30px"
                 class="home__scroll-mouse"
                 viewBox="0 0 247 390"
                 version="1.1"
@@ -40,8 +40,9 @@ const ScrollDown = () => {
                   }}
                 ></path>
               </svg>
-              <span className='home__scroll-name'>My Qualifications</span>
-              <i className='bx bx-pulse home__scroll-arrow'></i>
+              {/* <i className='bx bx-chevron-right  home__scroll-arrow'></i> */}
+              <span className='home__scroll-name'>Scroll Down</span>
+              <i className='bx bx-down-arrow-alt  home__scroll-arrow'></i>
             </NavLink>
         </div>
   ) 

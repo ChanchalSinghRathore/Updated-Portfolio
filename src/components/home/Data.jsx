@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Data = () => {
   return (
@@ -58,7 +59,7 @@ const Data = () => {
         <p className="home__description">
             I'm a front-end developer with a passion for creating beautiful websites and dedicated to my work.
         </p>
-        <a href="#contact" className="button button--flex">
+        <NavLink to="/contact" className="button button--flex">
             Say Hello
             <svg
                   class="button__icon"
@@ -77,7 +78,7 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-        </a>
+        </NavLink>
     </div>
   )
 }

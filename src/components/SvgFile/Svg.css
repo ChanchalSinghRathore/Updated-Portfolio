@@ -1,0 +1,48 @@
+#transring{
+    height: 50vh;
+    width: 50vw;
+    position: fixed;
+    top: 13rem;
+    left: 43rem;
+}
+
+#svgline{
+    height: 70vh;
+    width: 20vw;
+    position: fixed;
+    top: 13rem;
+    right: -3rem;
+}
+@media screen and (max-width: 1269px) {
+    #transring{
+        left: 38rem;
+        top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    #transring{
+        left: 36rem;
+        top: 10rem;
+    }
+}
+@media screen and (max-width: 1269px) {
+    #svgline{
+        left: 0rem;
+        top: 15rem;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    #svgline{
+        display: none;
+    }
+}
+@media screen and (max-width: 1025px) {
+    #svg-container{
+        display: none;
+    }
+}
+
+
+

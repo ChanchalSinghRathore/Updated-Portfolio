@@ -1,8 +1,10 @@
-import Work1 from "../../assets/work1.jpeg"
-import Work2 from "../../assets/work2.png"
+import { link } from "framer-motion/client"
+import Work1 from "../../assets/work1.png"
+import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpeg"
 import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
+import Blog from "../../assets/Blog.jpg"
 
 
 export const projectsData = [
@@ -29,18 +31,19 @@ export const projectsData = [
       category: "web",
       link:"https://group-discussion.vercel.app/"
     },
-    // {
-    //   id: 4,
-    //   image: Work4,
-    //   title: "App movil",
-    //   category: "app",
-    // },
-    // {
-    //   id: 5,
-    //   image: Work5,
-    //   title: "Web design",
-    //   category: "web",
-    // },
+    {
+      id: 5,
+      image: Blog,
+      title: "Blog",
+      category: "web",
+      link:"https://blog-inspireothers.vercel.app/"
+    },
+    {
+      id: 4,
+      image: Work4,
+      title: "App movil",
+      category: "app",
+    },
   ];
 
 

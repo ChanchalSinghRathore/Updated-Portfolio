@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './services.css';
+import Svgline from '../SvgFile/Svgline';
 const Services = () => {
     const [toggleState, seToggleState]= useState(0);
 
@@ -9,6 +10,7 @@ const Services = () => {
 
   return (
     <section className='services section' id="services">
+        <Svgline/>
         <h2 className='section__title'>Services</h2>
         <span className='section__subtitle'>What I Offer </span>
 

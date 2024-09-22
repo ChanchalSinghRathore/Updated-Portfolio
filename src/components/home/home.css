@@ -1,8 +1,6 @@
 .home__container{
     row-gap: 7rem;
 }
-
-
 .home__content{
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -119,7 +117,7 @@
 
 @media screen and (max-width: 992px) {
    .home__content{
-    grid-template-columns: 100px repeat(1, 1fr);
+    grid-template-columns: 100px repeat(2, 1fr);
     column-gap: 1.25rem;
    }
     .home__hand{
@@ -174,7 +172,7 @@
         width: 200px;
     }
     .home__scroll{
-        display: none;
+        display: block;
     }
 
   }

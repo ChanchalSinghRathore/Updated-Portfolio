@@ -3,10 +3,12 @@ import './about.css'
 import  AboutImg from "../../assets/about.jpg"
 import CV from "../../assets/Chanchal-cv.pdf"
 import Info from './Info';
+import Svgline from '../SvgFile/Svgline';
 const About = () => {
 
   return (
     <section className='about section' id='about'>
+      <Svgline/>
         <h2 className='section__title'>About Me</h2>
         <span className='section__subtitle'>My Introduction</span>
 

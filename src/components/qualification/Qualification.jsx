@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './qualification.css'
+import Svgline from '../SvgFile/Svgline';
 
 const Qualification = () => {
     const [toggleState, seToggleState]= useState(1);
@@ -9,6 +10,7 @@ const Qualification = () => {
     }
   return (
         <section className="qualification section">
+            <Svgline/>
                <h2 className='section__title'>Qualification</h2>
                <span className='section__subtitle'>My personal journey</span>
 
@@ -133,8 +135,8 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Certified in Algorithms</h3>
-                                <span className="qualification__subtitle">Princeton University</span>
+                                <h3 className="qualification__title">Certified in Data Analytics</h3>
+                                <span className="qualification__subtitle">Accenture</span>
                                 <div className="qualification__calender">
                                      <i className="uil uil-calendar-alt"></i>
                                         2024
