@@ -12,7 +12,7 @@ const Svgline = () => {
     
     {/* Dots */}
     <circle cx="50" cy="7" r="7" fill="black" />
-    <Link to="about" smooth={true} >
+    <Link to="about"  >
                         <text
                             className='svg-text'
                             x="90"
@@ -25,7 +25,7 @@ const Svgline = () => {
                         </text>
                     </Link>    {/* Top */}
     <circle cx="50" cy="100" r="7" fill="black" />
-    <Link to="skills" smooth={true} >
+    <Link to="skills"  >
                         <text
                             className='svg-text'
                             x="87"
@@ -38,7 +38,7 @@ const Svgline = () => {
                         </text>
                     </Link>   {/* Upper middle */}
     <circle cx="50" cy="200" r="7" fill="black" />
-    <Link to="services" smooth={true} >
+    <Link to="services" >
                         <text
                             className='svg-text'
                             x="100"
@@ -51,7 +51,7 @@ const Svgline = () => {
                         </text>
                     </Link>   {/* Lower middle */}
     <circle cx="50" cy="300" r="7" fill="black" /> 
-    <Link to="Qualification" smooth={true} >
+    <Link to="Qualification"  >
                         <text
                             className='svg-text'
                             x="120"
