@@ -6,11 +6,11 @@
   /* App.css */
 .dark-mode {
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
 }
 
 .dark-mode .main {
-  background-color: #444;
+  background-color: #444444;
 }
 
 /* ... */

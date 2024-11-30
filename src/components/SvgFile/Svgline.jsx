@@ -1,6 +1,7 @@
 import React from 'react'
 import './Svg.css'
 import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll';
 
 const Svgline = () => {
   return (
@@ -11,7 +12,7 @@ const Svgline = () => {
     
     {/* Dots */}
     <circle cx="50" cy="7" r="7" fill="black" />
-    <NavLink to="/About" >
+    <Link to="about" smooth={true} >
                         <text
                             className='svg-text'
                             x="90"
@@ -22,9 +23,9 @@ const Svgline = () => {
                         >
                             About
                         </text>
-                    </NavLink>    {/* Top */}
+                    </Link>    {/* Top */}
     <circle cx="50" cy="100" r="7" fill="black" />
-    <NavLink to="/skills">
+    <Link to="skills" smooth={true} >
                         <text
                             className='svg-text'
                             x="87"
@@ -35,9 +36,9 @@ const Svgline = () => {
                         >
                             Skills
                         </text>
-                    </NavLink>   {/* Upper middle */}
+                    </Link>   {/* Upper middle */}
     <circle cx="50" cy="200" r="7" fill="black" />
-    <NavLink to="/services">
+    <Link to="services" smooth={true} >
                         <text
                             className='svg-text'
                             x="100"
@@ -48,9 +49,9 @@ const Svgline = () => {
                         >
                             Services
                         </text>
-                    </NavLink>   {/* Lower middle */}
+                    </Link>   {/* Lower middle */}
     <circle cx="50" cy="300" r="7" fill="black" /> 
-    <NavLink to="/Qualification">
+    <Link to="Qualification" smooth={true} >
                         <text
                             className='svg-text'
                             x="120"
@@ -61,7 +62,7 @@ const Svgline = () => {
                         >
                             Qualifications
                         </text>
-                    </NavLink>  {/* Bottom */}
+                    </Link>  {/* Bottom */}
   </svg>
     </div>
   )

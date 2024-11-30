@@ -1,6 +1,7 @@
 import React , { useState } from 'react';
 import "./header.css";
 import { Link, NavLink } from 'react-router-dom';
+import ToggleSwitch from '../ToogleSwitch/ToggleSwitch';
 
 
 const Header = () => {
@@ -66,6 +67,9 @@ const Header = () => {
                 Contact
               </NavLink>
             </li>
+            {/* <li className="nav__item">
+                <ToggleSwitch/>
+            </li> */}
           </ul>
           <i className='uil uil-times nav__close' onClick={()=> showMenu(!Toggle)}></i>
         </div>

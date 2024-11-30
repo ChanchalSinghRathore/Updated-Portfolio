@@ -44,7 +44,12 @@ const Svg = () => {
                 />
 
                 <g id="Dots1" className="dots-nav">
-                    <NavLink to="/About">
+                    <NavLink
+                        to="/info#about"
+                        className={({ isActive }) =>
+                            isActive ? 'nav-link active' : 'nav-link'
+                        }
+                    >
                         <text
                             className='svg-text'
                             x="416"
@@ -72,7 +77,12 @@ const Svg = () => {
                     </g>
                 </g>
                 <g id="Dots2" className="dots-nav">
-                    <NavLink to="/skills">
+                <NavLink
+        to="/info#skills"
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+        }
+      >
                         <text
                             className='svg-text'
                             x="368"
@@ -106,7 +116,12 @@ const Svg = () => {
                     </g>
                 </g>
                 <g id="Dots3" className="dots-nav">
-                <NavLink to="/services">
+                <NavLink
+        to="/info#services"
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+        }
+      >
                         <text
                             className='svg-text'
                             x="210"
@@ -140,7 +155,12 @@ const Svg = () => {
                     </g>
                 </g>
                 <g id="Dots4" className="dots-nav">
-                <NavLink to="/Qualification">
+                <NavLink
+        to="/info#qualification"
+        className={({ isActive }) =>
+          isActive ? 'nav-link active' : 'nav-link'
+        }
+      >
                         <text
                             className='svg-text'
                             x="40"
