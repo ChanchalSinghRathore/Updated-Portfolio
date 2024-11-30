@@ -5,6 +5,7 @@ import Work3 from "../../assets/work3.jpeg"
 import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
 import Blog from "../../assets/Blog.jpg"
+import Work6 from "../../assets/Work6.jpg"
 
 
 export const projectsData = [
@@ -37,6 +38,13 @@ export const projectsData = [
       title: "Blog",
       category: "web",
       link:"https://blog-inspireothers.vercel.app/"
+    },
+    {
+      id: 6,
+      image: Work6,
+      title: "Chrome Extension",
+      category: "web",
+      link:"https://github.com/ChanchalSinghRathore/Chrome-Extension"
     },
     {
       id: 4,
