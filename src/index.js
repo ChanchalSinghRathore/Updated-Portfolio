@@ -7,6 +7,10 @@ import Home from './components/home/Home';
 import Contact from './components/contact/Contact';
 import Work from './components/work/Work';
 import InfoSection from './InfoSection';
+import Skills from './components/skills/Skills';
+import Services from './components/services/Services';
+import Qualification from './components/qualification/Qualification';
+import About from './components/about/About';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,6 +18,10 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="contact" element={<Contact />} />
       <Route path="work" element={<Work />} />
+      <Route path="skills" element={<Skills />} />
+      <Route path="services" element={<Services />} />
+      <Route path="qualification" element={<Qualification />} />
+      <Route path="about" element={<About />} />
       <Route path="info" element={<InfoSection />} /> {/* Route for InfoSection */}
     </Route>
   )
