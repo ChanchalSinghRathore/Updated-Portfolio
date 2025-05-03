@@ -6,6 +6,7 @@ import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
 import Blog from "../../assets/Blog.jpg"
 import Work6 from "../../assets/Work6.jpg"
+import Work7 from "../../assets/Work7.jpeg"
 
 
 export const projectsData = [
@@ -47,11 +48,18 @@ export const projectsData = [
       link:"https://github.com/ChanchalSinghRathore/Chrome-Extension"
     },
     {
-      id: 4,
-      image: Work4,
-      title: "App movil",
-      category: "app",
-    },
+    id: 7,
+    image: Work7,
+    title: "Quiet Link",
+    category: "web",
+    link:"https://anonymous-messenger-ten.vercel.app/"
+  },
+  {
+    id: 4,
+    image: Work4,
+    title: "App movil",
+    category: "app",
+  },
   ];
 
 
