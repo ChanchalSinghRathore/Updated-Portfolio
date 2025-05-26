@@ -55,9 +55,9 @@ const Data = () => {
                   ></path>
                 </svg>
         </h1>
-        <h3 className="home__subtitle">Front-End Developer</h3>
+        <h3 className="home__subtitle">Full-Stack Developer</h3>
         <p className="home__description">
-            I'm a front-end developer with a passion for creating beautiful websites and dedicated to my work.
+            I'm a full-stack developer with a passion for creating beautiful websites and dedicated to my work.
         </p>
         <NavLink to="/contact" className="button button--flex">
             Say Hello
