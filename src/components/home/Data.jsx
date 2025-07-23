@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Data = () => {
   return (
     <div className="home__data">
+
         <h1 className='home__title'>Chanchal 
         <svg 
                   width="36"
