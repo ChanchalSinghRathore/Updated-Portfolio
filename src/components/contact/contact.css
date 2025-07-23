@@ -100,6 +100,11 @@
     z-index: 10;
 }
 
+.dark .contact__form-tag{
+    background-color: rgb(39, 37, 37);
+    
+}
+
 .contact__form-area{
     height: 11rem;
 }

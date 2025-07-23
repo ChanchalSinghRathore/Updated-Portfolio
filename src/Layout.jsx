@@ -4,8 +4,13 @@ import Footer from './components/footer/Footer';
 import { Outlet } from 'react-router-dom'
 import About from './components/about/About';
 import InfoSection from './InfoSection';
+import { useEffect, useState } from "react";
 
 function Layout() {
+
+  
+
+
   return (
     <>
     <Header/>

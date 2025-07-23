@@ -9,6 +9,7 @@
   color: #ffffff;
 }
 
+
 .dark-mode .main {
   background-color: #444444;
 }
@@ -226,4 +227,11 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+}
+.dark {
+  --title-color: hsl(var(--hue), var(--sat), 85%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 70%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: #1a1a1a;
 }

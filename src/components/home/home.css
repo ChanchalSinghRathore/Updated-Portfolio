@@ -24,6 +24,7 @@
 .home__title{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    color: #A78EDC;
 }
 
 .home__hand {
@@ -189,4 +190,31 @@
             height: 22px;
         }
 
+  }
+
+
+  .dark body {
+  background-color: rgb(39, 37, 37);
+  color: white;
+}
+
+  .dark .home__title,
+  .dark .home__subtitle {
+    color: white;
+  }
+
+  .dark .home__title{
+    color: #A78EDC;
+  }
+  .dark .home__description {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .dark .home__social-icon {
+    color: var(--text-color-dark);
+  }
+
+  .dark .home__scroll-name,
+  .dark .home__scroll-arrow {
+    color: var(--title-color-dark);
   }

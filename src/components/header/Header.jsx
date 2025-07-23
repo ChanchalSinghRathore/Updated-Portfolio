@@ -2,6 +2,7 @@ import React , { useState } from 'react';
 import "./header.css";
 import { Link, NavLink } from 'react-router-dom';
 import ToggleSwitch from '../ToogleSwitch/ToggleSwitch';
+import { useEffect } from 'react';
 
 
 const Header = () => {
@@ -13,7 +14,29 @@ const Header = () => {
     else header.classList.remove("scroll-header");
 })
 
+  // Dark Mode Toggle
+const [darkMode, setDarkMode] = useState(false);
 
+  useEffect(() => {
+    const isDark = localStorage.getItem("theme") === "dark";
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      setDarkMode(true);
+    }
+  }, []);
+
+  const toggleDarkMode = () => {
+    const html = document.documentElement;
+    if (darkMode) {
+      html.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    }
+    setDarkMode(!darkMode);
+  };
+    
 
   const [Toggle, showMenu]= useState(false);
 
@@ -67,9 +90,13 @@ const Header = () => {
                 Contact
               </NavLink>
             </li>
-            {/* <li className="nav__item">
-                <ToggleSwitch/>
-            </li> */}
+           
+              <button onClick={toggleDarkMode} className="dark-toggle-btn">
+        {darkMode ? "☀" : "🌙"}
+      </button>
+            
+            
+
           </ul>
           <i className='uil uil-times nav__close' onClick={()=> showMenu(!Toggle)}></i>
         </div>

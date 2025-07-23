@@ -22,8 +22,8 @@ const Svg = () => {
                     style={{
                         opacity: 0.4,
                         fill: 'none',
-                        stroke: '#000000',
-                        strokeWidth: 2,
+                        stroke: '#A78EDC',
+                        strokeWidth: 2.1,
                         strokeMiterlimit: 10,
                         enableBackground: 'new'
                     }}
@@ -56,7 +56,7 @@ const Svg = () => {
                             y="216.5"
                             fontSize="15"
                             textAnchor="middle"
-                            style={{ fill: "#000000" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             About
                         </text>
@@ -89,7 +89,7 @@ const Svg = () => {
                             y="330"
                             fontSize="15"
                             textAnchor="middle"
-                            style={{ fill: "#000000" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             Skills
                         </text>
@@ -128,7 +128,7 @@ const Svg = () => {
                             y="406"
                             fontSize="15"
                             textAnchor="middle"
-                            style={{ fill: "#000000" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             Services
                         </text>
@@ -167,7 +167,7 @@ const Svg = () => {
                             y="355"
                             fontSize="15"
                             textAnchor="middle"
-                            style={{ fill: "#000000" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             Qualifications
                         </text>

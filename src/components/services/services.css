@@ -12,6 +12,10 @@
     padding: 6rem 0 2rem 2.5rem;
 }
 
+.dark .services__content {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
 
 .services__icon {
     display: block;

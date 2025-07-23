@@ -6,6 +6,11 @@
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
+
+.dark .header{
+    background-color: rgb(39, 37, 37);
+}
+
 .nav{
     height: calc(var(--header-height) + 1.5rem);
     display: flex;
@@ -54,6 +59,10 @@
     
 
 }
+
+
+
+
 @media screen and (max-width: 2000px) {
     .nav__item2{
         display: none;
@@ -132,3 +141,17 @@
         column-gap: 0;
     }
 }
+
+.dark-toggle-btn {
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  margin-top: -2.3px;
+}
+
+
+
+
+
+
+

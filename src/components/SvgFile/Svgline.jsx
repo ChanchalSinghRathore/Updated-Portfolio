@@ -6,9 +6,9 @@ import { Link } from 'react-scroll';
 const Svgline = () => {
   return (
     <div >
-       <svg id='svgline' width="100" height="500" xmlns="http://www.w3.org/2000/svg">
+       <svg id='svgline'  width="100" height="500" xmlns="http://www.w3.org/2000/svg">
     {/* Vertical Line */}
-    <line x1="50" y1="0" x2="50" y2="400" stroke="black" strokeWidth="1" />
+    <line x1="50" y1="0" x2="50" y2="400" stroke="#A78EDC" strokeWidth="1" />
     
     {/* Dots */}
     <circle cx="50" cy="7" r="7" fill="black" />
@@ -19,7 +19,7 @@ const Svgline = () => {
                             y="13"
                             fontSize="14"
                             textAnchor="middle"
-                            style={{ fill: "#111111" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             About
                         </text>
@@ -32,7 +32,7 @@ const Svgline = () => {
                             y="105"
                             fontSize="14"
                             textAnchor="middle"
-                            style={{ fill: "#111111" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             Skills
                         </text>
@@ -45,7 +45,7 @@ const Svgline = () => {
                             y="205"
                             fontSize="14"
                             textAnchor="middle"
-                            style={{ fill: "#111111" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             Services
                         </text>
@@ -58,7 +58,7 @@ const Svgline = () => {
                             y="305"
                             fontSize="14"
                             textAnchor="middle"
-                            style={{ fill: "#111111" }}
+                            style={{ fill: "#A78EDC" }}
                         >
                             Qualifications
                         </text>
