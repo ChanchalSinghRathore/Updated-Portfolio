@@ -35,6 +35,10 @@
     border-radius: 1rem;
 }
 
+.dark .work__card{
+    border: 2px solid rgba(255,255,255,0.1);
+}
+
 .work__img{
     width: 295px;
     border-radius: 1rem;

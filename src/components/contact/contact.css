@@ -27,6 +27,11 @@
     border-radius: 0.75rem;
     text-align: center;
 }
+
+.dark .contact__card{
+    border: 2px solid rgba(255,255,255,0.1);
+}
+
 .contact__card-icon{
     font-size: 2rem;
     color: var(--title-color);
