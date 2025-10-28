@@ -37,7 +37,7 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">BCA</h3>
-                                <span className="qualification__subtitle">AIMT, Lucknow</span>
+                                <span className="qualification__subtitle">Lucknow University</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                         2023-2025

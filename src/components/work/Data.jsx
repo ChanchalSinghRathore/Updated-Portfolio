@@ -8,6 +8,7 @@ import Blog from "../../assets/Blog.jpg"
 import Work6 from "../../assets/Work6.jpg"
 import Work7 from "../../assets/Work7.jpeg"
 import Work8 from "../../assets/Work8.png"
+import Work9 from "../../assets/Work9.jpeg"
 
 
 export const projectsData = [
@@ -26,6 +27,14 @@ export const projectsData = [
       title: "Blog",
       category: "web",
       link:"https://blog-inspireothers.vercel.app/"
+    },
+
+    {
+      id: 9,
+      image: Work9,
+      title: "YouTube Backend",
+      category: "web",
+      link:"https://github.com/ChanchalSinghRathore/Stream-Jet"
     },
 
      {

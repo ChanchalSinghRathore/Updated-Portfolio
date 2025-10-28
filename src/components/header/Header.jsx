@@ -45,7 +45,7 @@ const [darkMode, setDarkMode] = useState(false);
   return (
     <header className="header">
       <nav className='nav container'>
-        <NavLink to='/' className='nav__logo'>Chanchal Singh Rathore</NavLink>
+        <NavLink to='/' className='nav__logo'>Ranvijayy Singh Rathore</NavLink>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
