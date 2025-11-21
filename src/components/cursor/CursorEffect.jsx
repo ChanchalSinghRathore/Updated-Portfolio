@@ -51,7 +51,7 @@ const CursorEffect = () => {
       const size = Math.random() * 3 + 2;
       const speedX = Math.random() * 2 - 1;
       const speedY = Math.random() * 2 - 1;
-      const color = `hsl(${Math.random() * 30 + 120 }, 100%, 50%)`; // Cyan/Blue range
+      const color = `hsl(${Math.random() * 20}, 100%, 50%)`; // Cyan/Blue range
       return {
         x,
         y,

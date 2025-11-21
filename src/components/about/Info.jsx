@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Info = () => {
-  const [count, setCount] = useState(0); 
+  const [count, setCount] = useState(20); 
   const target = 20; 
   const [hasStarted, setHasStarted] = useState(false); 
 
