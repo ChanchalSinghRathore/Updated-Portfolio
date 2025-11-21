@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom'
 import About from './components/about/About';
 import InfoSection from './InfoSection';
 import { useEffect, useState } from "react";
+import CursorEffect from './components/cursor/CursorEffect';
 
 function Layout() {
 
@@ -13,6 +14,7 @@ function Layout() {
 
   return (
     <>
+    <CursorEffect />
     <Header/>
     <main className="main">
         <Outlet/>

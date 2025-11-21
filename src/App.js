@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Work from './components/work/Work';
+import CursorEffect from './components/cursor/CursorEffect';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
 
 return (
   <>
+    <CursorEffect />
     <Header />
 
     <main className='main'>
