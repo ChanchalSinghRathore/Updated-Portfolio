@@ -29,12 +29,29 @@ export const projectsData = [
       link:"https://blog-inspireothers.vercel.app/"
     },
 
+
     {
       id: 9,
       image: Work9,
       title: "YouTube Backend",
       category: "web",
       link:"https://github.com/ChanchalSinghRathore/Stream-Jet"
+    },
+    
+     {
+    id: 8,
+    image: Work8,
+    title: "Music Gallery",
+    category: "web",
+    link:"https://music-gallery.vercel.app/"
+  },
+
+     {
+      id: 1,
+      image: Work1,
+      title: "Music Player",
+      category: "web",
+      link:"https://music-player-snowy-iota.vercel.app"
     },
 
      {
@@ -44,14 +61,6 @@ export const projectsData = [
       category: "web",
       link:"https://github.com/ChanchalSinghRathore/Chrome-Extension"
     },
-
-     {
-    id: 8,
-    image: Work8,
-    title: "Music Gallery",
-    category: "web",
-    link:"https://music-gallery.vercel.app/"
-  },
 
   {
       id: 2,
@@ -70,13 +79,7 @@ export const projectsData = [
     },
 
     
-    {
-      id: 1,
-      image: Work1,
-      title: "Music Player",
-      category: "web",
-      link:"https://spotify4u.freewebhostmost.com/"
-    },
+  
     
    
    
