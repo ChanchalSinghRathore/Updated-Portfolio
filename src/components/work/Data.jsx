@@ -9,9 +9,19 @@ import Work6 from "../../assets/Work6.jpg"
 import Work7 from "../../assets/Work7.jpeg"
 import Work8 from "../../assets/Work8.png"
 import Work9 from "../../assets/Work9.jpeg"
+import Work10 from "../../assets/Work10.png"
 
 
 export const projectsData = [
+
+    {
+    id: 10,
+    image: Work10,
+    title: "Live Resume",
+    category: "web",
+    link:"https://resumeislive.vercel.app/"
+  },
+
 
     {
     id: 7,
