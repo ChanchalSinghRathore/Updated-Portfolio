@@ -11,6 +11,7 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Work from './components/work/Work';
 import CursorEffect from './components/cursor/CursorEffect';
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
 
@@ -35,6 +36,7 @@ return (
     <Footer />
 
     <ScrollUp />
+    <Analytics />
   </>
 
 )
