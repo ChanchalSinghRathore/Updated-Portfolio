@@ -36,7 +36,7 @@ return (
     <Footer />
 
     <ScrollUp />
-    <Analytics />
+    <Analytics mode="production" debug={false} />
   </>
 
 )
